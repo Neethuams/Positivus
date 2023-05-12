@@ -1,0 +1,115 @@
+* {
+    font-family: "Space Grotesk", sans-serif;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.bttn {
+    display: inline-block;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    padding: 20px 35px;
+    border: 1px solid #191a23;
+    border-radius: 14px;
+    transition: 0.4s all ease;
+    cursor: pointer;
+}
+.bttn:hover {
+    background-color: #000000;
+    color: #fff;
+    transition: 0.4s all ease;
+}
+header {
+    width: 100%;
+}
+header .navbar .inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+header .navbar .inner .menu {
+    margin-left: auto;
+}
+header .navbar .inner ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    margin-right: 40px;
+}
+header .navbar .inner ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header .navbar .inner ul li a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    transition: 0.4s all ease;
+}
+header .navbar .inner ul li a:hover {
+    color: #b9ff66;
+    transition: 0.4s all ease;
+}
+header .navbar .inner ul li:active a {
+    text-decoration: underline #b9ff66;
+}
+
+/* wrapper */
+
+.wrapper .element {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+    margin: 70px auto;
+}
+.wrapper .element .item {
+    width: calc(50% - 100px);
+    display: flex;
+    flex: wrap;
+    gap: 35px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.wrapper .element .item h1 {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 77px;
+    color: #000000;
+}
+.wrapper .element .item p {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+.wrapper .element .item .bttn {
+    color: #fff;
+    background: #191a23;
+}
